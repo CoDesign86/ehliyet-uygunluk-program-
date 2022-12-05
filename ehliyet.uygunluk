@@ -1,0 +1,11 @@
+isim = input('isminiz: ')
+yas = int(input('yaşınız: '))
+egitim = input('eğitim: ')
+
+if (yas>=18):
+    if (egitim=='lise' or egitim=='üniversite' or egitim == 'ortaokul'):
+        print(isim, 'eğitimin yeterli')
+    else:
+        print(isim,"eğitimin yetersiz")
+else:
+    print(isim,"yaşın tutmadı")
